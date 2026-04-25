@@ -1,27 +1,27 @@
 class Filestats < Formula
   desc "Count file statistics by extension, similar to GitHub's language breakdown"
   homepage "https://github.com/highnamee/filestats"
-  version "1.0.0"
+  version "1.1.1"
 
   on_macos do
     on_arm do
       url "https://github.com/highnamee/filestats/releases/download/v#{version}/filestats-darwin-arm64"
-      sha256 "76ed3794dff89e4bb58423e649ff6213d99e25dcb0d93117d5585f6284f49245"
+      sha256 "5611e9254ce1acfc7987c0fef05413dc32f63b07ed3aca00e2e6ce2e27d33963"
     end
     on_intel do
       url "https://github.com/highnamee/filestats/releases/download/v#{version}/filestats-darwin-amd64"
-      sha256 "82f48cea4644c443e6780967366ee61091ba41bb8810d5a5caf0e57fb4394f8b"
+      sha256 "2ff11dc219ef04b54ef34e6b8a3b93b589e8101f5141fe88a758850bc4735047"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/highnamee/filestats/releases/download/v#{version}/filestats-linux-arm64"
-      sha256 "eedd61b8d8f10d499bd242d5a7338bbb2620af771f9b3ff26d55b4488670aae6"
+      sha256 "f4a19ad5ab99308c2544e87837c52e8bc1e885c868865821cc033f3b6a9859e0"
     end
     on_intel do
       url "https://github.com/highnamee/filestats/releases/download/v#{version}/filestats-linux-amd64"
-      sha256 "e8f7f76fb6c7c67f8713883cbc0144f21aa29eedc3e20ca5938f4d44afbecfed"
+      sha256 "17bd2b240b854109125fa311b2430fff3694deac593cd036adf102b6158b9448"
     end
   end
 
